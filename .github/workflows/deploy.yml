@@ -16,4 +16,4 @@ jobs:
           username: root
           password: ${{ secrets.VM_PASSWORD }}
           script: |
-            cd /root/my-node-app
+            cd /root/my-node-app/deploy.sh
